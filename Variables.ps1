@@ -5,3 +5,4 @@ Get-Variable MyVariable
 
 $Today = (Get-Date).DateTime
 Get-Variable Today
+(Get-Date).DateTime

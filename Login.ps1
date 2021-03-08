@@ -1,0 +1,1 @@
+# https://community.idera.com/database-tools/powershell/ask_the_experts/f/learn_powershell_from_don_jones-24/21905/how-to-check-what-computer-s-an-ad-account-is-logged-into
