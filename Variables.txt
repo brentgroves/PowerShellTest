@@ -1,0 +1,13 @@
+Variable names aren't case-sensitive, and can include spaces and special characters. But, variable names that include special characters and spaces are difficult to use and should be avoided. For more information, see Variable names that include special characters.
+
+There are several different types of variables in PowerShell.
+
+User-created variables: User-created variables are created and maintained by the user. By default, the variables that you create at the PowerShell command line exist only while the PowerShell window is open. When the PowerShell windows is closed, the variables are deleted. To save a variable, add it to your PowerShell profile. You can also create variables in scripts with global, script, or local scope.
+
+Automatic variables: Automatic variables store the state of PowerShell. These variables are created by PowerShell, and PowerShell changes their values as required to maintain their accuracy. Users can't change the value of these variables. For example, the $PSHOME variable stores the path to the PowerShell installation directory.
+
+For more information, a list, and a description of the automatic variables, see about_Automatic_Variables.
+
+Preference variables: Preference variables store user preferences for PowerShell. These variables are created by PowerShell and are populated with default values. Users can change the values of these variables. For example, the $MaximumHistoryCount variable determines the maximum number of entries in the session history.
+
+For more information, a list, and a description of the preference variables, see about_Preference_Variables.
